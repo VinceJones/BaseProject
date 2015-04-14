@@ -1,0 +1,29 @@
+1.first make the directory
+	mkdir
+
+2.then initialize a repository in the directory
+	git init
+
+3. track the file
+	git add .
+	// Gets the file ready to commit
+
+4. commit the file
+	git commit -m "Initial Commit"
+	// File is now ready to be pushed to the global level
+
+// DO A "GIT STATUS" THROUGHOUT TO SEE WHAT IS GOING ON
+
+5. Sync the local repo to the global repo
+	git remote add origin https://github.com/VinceJones/classExample.git
+
+6. Push the local repo to GitHub
+	git push -u origin master
+
+put these on a github repo
+
+GitHub repo name: base project
+
+index.html
+stylesheet.css
+app.jscd
